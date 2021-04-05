@@ -10,7 +10,6 @@ export default class SectionHero extends React.Component {
         return (
             <section id={_.get(section, 'section_id', null)} className="block hero-block bg-accent outer">
               <div className="inner">
-                  hjj
                 <div className="grid">
                   {_.get(section, 'image', null) && (
                   <div className="cell block-preview">
